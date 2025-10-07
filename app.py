@@ -3,6 +3,11 @@ import pandas as pd
 import numpy as np
 import pickle
 import plotly.graph_objects as go
+import joblib
+model = joblib.load("aqi_model.pkl")
+model = joblib.load("model_metadata.pkl")
+model = joblib.load("scaler.pkl")
+
 
 # Page configuration - CLASSIC WHITE THEME
 st.set_page_config(
