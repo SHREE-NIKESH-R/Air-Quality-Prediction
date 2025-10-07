@@ -1,0 +1,32 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+env/
+venv/
+.venv
+*.egg-info/
+
+# Jupyter Notebook
+.ipynb_checkpoints
+
+# Model files (comment out if you want to upload to GitHub)
+*.pkl
+
+# Dataset (large file)
+city_day.csv
+
+# OS
+.DS_Store
+Thumbs.db
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# Streamlit
+.streamlit/
